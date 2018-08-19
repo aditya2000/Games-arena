@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+
+.game-results {
+    font-family: 'Questrial', sans-serif;
+    font-size:1.1em;
+    margin: 2em;
+    display: block;
+    background-color: white;
+    color: rgb(83, 81, 81);
+}
+
+.game {
+    border-radius: 6px;
+    box-shadow: 1px 2px 2px 1px rgb(172, 167, 167);
+}
+
+.game:hover {
+    box-shadow: 4px 4px 4px 4px rgb(172, 167, 167); 
+}
+
+.game-title {
+    background-color:rgb(83, 81, 81);
+    color: white;
+    padding: 1em;
+    border-radius: 2px;
+}
+
+.search-bar {
+    width: 70%;
+    height: 3em;
+    border-radius: 2px;
+    border: none;
+    box-shadow: 1px 1px 1px 1px rgb(172, 167, 167);
+    outline: none;
+    font-size: 1em;
+    font-family: 'Questrial', sans-serif;
+    padding-left: 2em;
+    color: rgb(99, 96, 96);
+}
+
+.select-input {
+    height: 3.75em;
+    margin-left: 1em;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px 1px rgb(218, 215, 215);
+    color: white;
+    background-color: rgb(99, 96, 96);
+    font-family: 'Questrial', sans-serif;
+    outline: none;
+    padding: .5em;
+}
+
+.select-input option {
+    font-size: 1.25em;
+}
